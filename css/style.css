@@ -1,0 +1,111 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1739611216842-05e54af86ec7?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+}
+
+h1 {
+    color: aqua;
+    text-align: center;
+    font-size: 50px;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+    text-decoration: underline;
+    margin-top: 20px;
+ 
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid 5px white;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+p {
+    line-height: 1.6em;
+    color: white;
+    text-indent: 50px;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    margin-top: 35px;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.project {
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.project h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7bb0db;
+}
+
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgba(95, 88, 88, 0.425);
+    border-radius: 10px;
+    color: white;
+    line-height: 1.5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container ul li {
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 2px solid #ccc;
+    list-style-type: none;
+}
+
+
+.media {
+  list-style: none;       /* hilangkan bullet */
+  display: flex;          /* membuat item li sejajar */
+  border-radius: 10px;
+  gap: 15px;              /* jarak antar item */
+  padding: 20px;
+  margin-top: 100px;       /* pusatkan daftar */
+  justify-content: center; /* pusatkan daftar */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.media li a {
+  text-decoration: none;  /* hilangkan garis bawah */
+  color: white;           /* warna teks */
+  font-family: sans-serif;
+  margin: 10px;
+  border-radius: 10px;
+  border-color: azure;
+  border-width: 2px;
+  border: solid 1px;
+  padding: 10px 20px;    /* padding */
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+.media li a:hover {          /* padding saat hover */
+  color: grey;
+  text-decoration: underline;
+  background-color: azure;
+  text-decoration: none;
+  transition: all 0.5s ease; /* efek transisi */
+}
